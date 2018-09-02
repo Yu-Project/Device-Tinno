@@ -8,5 +8,5 @@
 /data         ext4          /dev/block/bootdevice/by-name/userdata	    flags=display="data";backup=1
 /cache        ext4          /dev/block/bootdevice/by-name/cache		      flags=display="cache";backup=1
 /frp	        emmc    	    /dev/block/bootdevice/by-name/config	      flags=display="frp";backup=0
-/external_sd  vfat          /dev/block/mmcblk1p1 /dev/block/mmcblk1  	  flags=display="Micro SDcard";storage;wipeingui;removable
-/usb-otg      vfat          /dev/block/sda1      /dev/block/sda	     	  flags=removable;storage;display=USB-OTG
+/external_sd  vfat          /dev/block/mmcblk1p1   	  flags=display="Micro SDcard";storage;wipeingui;removable
+/usb-otg      vfat          /dev/block/sda1      	     	  flags=removable;storage;display=USB-OTG
