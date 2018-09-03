@@ -144,7 +144,7 @@ ro.vendor.at_library=libqti-at.so
 ro.vendor.gt_library=libqti-gt.so
 
 # Misc
-ro.emmc_size=16GB
+ro.emmc_size=32GB
 
 # Qualcomm
 ro.qualcomm.cabl=2
