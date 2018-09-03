@@ -73,6 +73,9 @@ on init
     # WiFi-Firmware Reload Path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    # Set Default Country Code to International
+    setprop ro.boot.wificountrycode 00
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
