@@ -625,6 +625,12 @@ case "$target" in
                 echo 1 > /proc/sys/kernel/power_aware_timer_migration
                 # Set Memory parameters
                 configure_memory_parameters
+
+		# Set Vibration Intensity to Maximum---
+		echo 3596 > /sys/class/timed_output/vibrator/vtg_level
+
+		# Set an Optimal Value for Write (Entropy)---
+		echo 128 > /proc/sys/kernel/random/write_wakeup_threshold
             ;;
             *)
 
